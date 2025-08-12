@@ -695,8 +695,11 @@ input::placeholder {
         height: auto;
     }
 
-    .chief-content {
+    .chief {
         margin-top: 20px;
+    }
+
+    .chief-content {
         display: flex;
         flex-direction: column;
     }
@@ -782,5 +785,6 @@ input::placeholder {
     }
 
 }
+
 
 
