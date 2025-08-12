@@ -692,7 +692,7 @@ input::placeholder {
     }
 
     .services {
-        height: 200vh;
+        height: auto;
     }
 
     .chief-content {
@@ -781,3 +781,4 @@ input::placeholder {
     }
 
 }
+
