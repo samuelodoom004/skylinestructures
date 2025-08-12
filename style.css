@@ -1,0 +1,782 @@
+* {
+    padding: 5;
+    margin: auto;
+}
+
+
+.logo {
+    display: flex;
+    gap: 20px;
+}
+
+.logo h3 {
+    font-family: 'Anton';
+    font-size: 1.5em;
+    
+}
+
+.spa {
+    color: rgb(235, 193, 7);
+}
+
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+
+.nav-list {
+    display: flex;
+    gap:40px;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-family: 'inter';
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+
+.sign-up {
+    padding: 12px 12px 12px 12px;
+    width: 10%;
+    height: auto;
+    background-color: rgb(209, 172, 6);
+    border: none;
+    color: #06142E;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'inter';
+    border-radius: 5px;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+    color: #06142E;
+}
+
+
+.nav-list {
+    display: flex;
+    gap:40px;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-family: 'inter';
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+
+.sign-up {
+    padding: 12px 12px 12px 12px;
+    width: 10%;
+    height: auto;
+    background-color: rgb(209, 172, 6);
+    border: none;
+    color: #06142E;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'inter';
+    border-radius: 5px;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+    color: #06142E;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h3 {
+    font-family: 'Anton';
+    font-size: 1.5em;
+    
+}
+
+.spa {
+    color: rgb(235, 193, 7);
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 95%;
+    height: auto;
+    background-color: #06142E;
+}
+
+.content-right h3 {
+    font-size: 33px;
+    font-weight: 700;
+    font-family: 'inter';
+    text-transform: capitalize;
+    color:  rgb(209, 172, 6);
+}
+
+.hero {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Raleway';
+    color: white;
+}
+
+.content-left img {
+    width: 450px;
+    height: 450px;
+}
+
+.he-but {
+    margin-top: 20px;
+    padding: 8px 8px 8px 8px;
+    background-color: rgb(209, 172, 6);
+    color: #06142E;
+    font-weight: 600;
+    font-family: 'Raleway';
+    border-radius: 2px;
+    border: none;
+    margin: 20px;
+}
+
+.he-b {
+    background-color: #06142E;
+    padding: 8px 8px 8px 8px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Raleway';
+    border-radius: 2px;
+    border: 1px solid rgb(209, 172, 6);
+}
+
+.kin-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.kin-content h3 {
+    font-size: 2em;
+    font-family: 'Raleway';
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.kintext {
+    font-size: 15px;
+    color: #06142E;
+    font-family: 'inter';
+    font-weight: 400;
+}
+
+.skycont {
+    margin-top: 20px;
+}
+
+.para-1 {
+    padding-bottom: 10px;
+}
+
+.para-1 i {
+    color: rgb(209, 172, 6);
+    font-size: 15px;
+}
+
+.para-1 p {
+    font-family: 'serif';
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sky {
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    background-color: rgb(209, 172, 6);
+    color: #06142E;
+    font-family: 'Raleway';
+    border-radius: 3px;
+    border: none;
+    font-weight: 500;
+}
+
+.kin-right img {
+    width: 500px;
+    height: 500px;
+}
+
+.serve-content h3 {
+    font-size: 2em;
+    font-weight: 800;
+    font-family: 'Raleway';
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.serve {
+    font-size: 18px;
+    font-weight: 400;
+    color: #06142E;
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+.services {
+    width: 100%;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.938);
+}
+
+.servicecard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card1 {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    box-shadow:0 4px 15px hsl(240, 8%, 83%);
+    border-radius: 5px;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card1 p{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.card1 h3 {
+    font-family: 'inter';
+    text-transform: capitalize;
+}
+
+.card1 i {
+    font-size: 23px;
+}
+
+.card1 button{
+    width: 80%;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid rgb(209, 172, 6);
+    font-family: 'Raleway';
+    background-color: white;
+    font-weight: 600;
+    color: #06142E;
+}
+
+.chief-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chief-right h3{
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Raleway';
+    text-transform: capitalize;
+    color: white;
+}
+
+.need {
+    color: rgb(209, 172, 6);
+    font-size: 2em;
+}
+
+.chief-right-content p {
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'inter';
+    color: white;
+}
+
+.chief-serve {
+    margin-top: 10px;
+    padding-right: 50px;
+}
+
+.chief-serve i {
+    padding-left: 20px;
+    gap: 20px;
+    color: rgb(235, 193, 7);
+}
+
+.contact-us {
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(209, 172, 6);
+    border: none;
+    font-family: 'Raleway';
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.chief-left img {
+    width: 400px;
+    height: 500px;
+}
+
+.chief {
+    width: 100%;
+    height: auto;
+    background-color: #06142E;
+}
+
+.get-in-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.get-right h2 {
+    font-size: 2em;
+    font-family: 'Raleway';
+    font-weight: 800;
+}
+
+.get {
+    color: rgb(209, 172, 6);
+    font-family: 'Poppins';
+}
+
+.get-right p {
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #06142E;
+    margin-top: 20PX;
+}
+
+.get-call i {
+    display: flex;
+    margin: 20px;
+    font-family: 'Poppins';
+    color: #06142E;
+}
+
+.forms input{
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    gap: 20px;
+    border:1px solid #06142E;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    font-size: 12px;
+    font-style: italic;
+    font-family:serif;
+}
+
+.submit {
+    padding: 5px 5px 5px 5px;
+    width: 30%;
+    height: auto;
+    background-color: #06142E;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.project-content h3  {
+    padding-left: 20px;
+    font-size: 1.5em;
+    font-family: 'Raleway';
+    color: #06142E;
+}
+
+.our {
+    color: rgb(209, 172, 6);
+}
+
+.project-content p {
+    padding-left: 20px;
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+
+.images img {
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.our-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.images img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px hsl(240, 8%, 83%);
+}
+
+.custo-content h3 {
+    font-size: 2em;
+    font-family: 'Raleway';
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.page {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Poppins';
+    color: #06142E;
+}
+
+.customers {
+    margin-top: 20px;
+}
+
+.custrig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card-custo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* place-content: center; */
+    width: 300px;
+    height: 270px;
+    background-color: white;
+    box-shadow:0 4px 15px hsl(240, 8%, 83%);
+    border-radius: 5px;
+}
+
+.card-custo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.card-custo p {
+    text-align: center;
+    padding: 0 10px;
+    font-family: 'Raleway';
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    color: rgb(209, 172, 6);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.fi-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* place-content: center; */
+    width: 300px;
+    height: 270px;
+}
+
+.logo2 {
+    display: flex;
+    gap: 10px;
+}
+
+.logo2 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.logo2 h3 {
+    font-size: 1.5em;
+    font-family: 'Anton';
+}
+
+.fo {
+    color: rgb(209, 172, 6);
+}
+
+.foot {
+    padding: 0 10px;
+    font-family: 'Raleway';
+    color: #06142E;
+    font-weight: 500;
+}
+
+.footer-icon i{
+    position: relative;
+    padding-right: 10px;
+    margin-right: 30px;
+    color: rgb(162, 134, 6);
+}
+
+
+.our-services h3 {
+    font-size: 23px;
+    font-family: 'Raleway';
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+
+.our-support h3 {
+    font-size: 23px;
+    font-family: 'Raleway';
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.iconi  {
+    flex-direction: column;
+    text-align: justify;
+    
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+}
+
+@media only screen and (max-width: 768px) {
+
+    main {
+        width: 50%;
+        height: 450vh;
+    }
+    .logo  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 300px;
+    }
+
+    .nav-list {
+        display: none;
+        gap: 5px;
+    }
+
+    .logo h3 {
+        font-size: 13px;
+        position: relative;
+        margin-right: 300px;
+    }
+
+    .sign-up {
+        display: none;
+        margin-right: 300px;
+        width: 50px;
+        height: auto;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .content-right h3 {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .content-right p {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .content-left img {
+        float: left;
+        width: 150px;
+        height: 150px;
+    }
+
+    .he-but {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kin-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .kin-right img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .kin-content h3{
+        text-align: center;
+        padding: 0 10px;
+        font-size: 1.5em;
+    }
+
+    .kintext  {
+        text-align: center;
+        padding: 0 10px;
+        color: #0f2856;
+        font-family: 'Raleway';
+        font-weight: 500;
+    }
+
+    .para-1 {
+        padding: 0 10px;
+    }
+
+    .sky {
+        margin-top: 20px;
+
+    }
+
+    .serve-content h3 {
+        font-size: 1.5em;
+    }
+
+    .serve {
+        font-size: 13px;
+    }
+
+    .servicecard {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .services {
+        height: 170vh;
+    }
+
+    .chief-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chief-left img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .chief-right h3 {
+        font-size: 1.5em;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .chief-right-content p {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .chief-serve i {
+        padding-left: 5px;
+        gap: 10px;
+    }
+
+    .contact-us {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .get-in-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .get-right h2 {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .get-right p {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .images img {
+        margin-left: 40px;
+    }
+
+    .project-content h3 {
+        text-align: center;
+    }
+
+    .project-content p {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .custo-content h3 {
+        font-size: 1.5em;
+    }
+
+    .page {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .custrig {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer {
+        height: 120vh;
+    }
+}

@@ -1,0 +1,286 @@
+* {
+    padding: 5;
+    margin: auto;
+}
+
+.nav-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.nav-1 h3 {
+    font-size: 18px;
+    font-family: 'Orelega one';
+    color: green;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px 5px 5px 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid rgb(62, 125, 3);
+}
+
+.submit {
+    padding: 5px 5px 5px 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(62, 125, 3);
+    border: 2px solid rgb(62, 125, 3)
+}
+
+.logo {
+    display: flex;
+}
+
+.nav-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Orelega one';
+    font-size: 18px;
+}
+
+.nav-list a:hover {
+    background-color: rgb(62, 125, 3);
+    color: white;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+    background-color: rgb(236, 244, 229);
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.content-left {
+    line-height: 35px;
+}
+.content-left h3 {
+    text-transform: capitalize;
+    font-family: 'kavoon';
+    font-size: 20px;
+}
+
+.farm {
+    color: rgb(62, 125, 3);
+}
+
+.content-left p {
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+.button {
+    padding: 10px 10px 10px 10px;
+    flex-direction: row;
+    font-family: 'poppins';
+    margin: 10px;
+    background-color: rgb(62, 125, 3);
+    color: white;
+    border-radius: 2px;
+}
+
+.content-right img{
+    width: 400px;
+    height: 400px;
+}
+
+.about-us h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Orelega one';
+    font-weight: 800;
+    color: rgb(62, 125, 3);
+    margin-top: 50px;
+}
+
+.about-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left p {
+    font-size: 25px;
+    display: flex;
+    font-family: 'poppins';
+    color: rgb(153, 193, 115);
+    align-items: center;
+}
+
+.product-section {
+    margin-top: 50px;
+}
+
+.product-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img {
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+}
+
+.circle h4 {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.categories-section {
+    margin-top: 50px;
+}
+
+.categories-section h3 {
+    font-family: 'Orelega one';
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+}
+
+.section-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carde {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+    border: 1px solid rgb(3, 91, 3);
+    border-radius: 5px;
+}
+
+.star {
+    display: flex;
+}
+
+.carde img {
+    width: 120px;
+    height: 120px;
+}
+
+.carde h5 {
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+.star i {
+    color: rgb(201, 201, 8);
+}
+
+.buy-now {
+    padding: 5px 5px 5px 5px;
+    background-color: green;
+    color: white;
+    font-family: 'poppins';
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.nutrient-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-right {
+    width: 40%;
+    height: 200px;
+    background-image:url(../REALITY/bak.jpg);
+    filter: brightness(60%);
+    border-radius: 10px;
+}
+.card-left {
+    width: 40%;
+    height: 200px;
+    background-image: url(../REALITY/fru.bak.jpg);
+    filter: brightness(50%);
+}
+
+.card-right {
+    justify-content: center;
+    align-items: center;      
+}
+
+.more {
+    padding: 5px 5px 5px 5px;
+    background-color: white;
+    border-radius: 50px;
+    color: green;
+    border: 2px solid rgb(22, 137, 22);
+    font-family: 'Orelega one';
+}
+
+.nut-cont {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.nut-cont h3 {
+    font-size: 23px;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bolder;
+}
+
+.nut-cont h2{
+    font-size: 23px;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bolder;
+}
+
+.green {
+    font-size: 23px;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bolder;
+}

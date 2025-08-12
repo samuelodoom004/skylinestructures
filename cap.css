@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+.navs {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navs h3 {
+    font-size: 18px;
+    color: rgb(0, 7, 9);
+    font-family: 'Kavoon';
+    font-weight: 500;
+}
+
+.mart {
+    color: blue;
+}
+
+.nav-list {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.hero-section {
+    width: 90%;
+    height: 150px;
+    background-color: rgb(246, 250, 255);
+    margin: 25px;
+}
+
+.hero-content {
+    display: flex;
+    gap: 35px;
+}
+
+.content-left {
+    justify-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.content-left h3 {
+    font-family: 'Playball';
+    color: rgb(35, 35, 112);
+}
+
+.men {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.content-left h4 {
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: blue;
+}
+
+.button {
+    display: flex;
+    gap: 10px; 
+}
+
+.shop-now {
+    margin-top: 13px;
+    gap: 18px;
+    width: 80px;
+    box-sizing: border-box;
+    padding: 2px 2px 2px 2px;
+    background-color: rgb(13, 71, 125);
+    color: white;
+    font-size: 12px;
+    font-family: 'raleway';
+}
+
+.content-right img {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.what-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    gap: 20px;
+}
+
+.card-what {
+    font-size: 11px;
+}
+
+.card-what h3{
+    color: rgb(12, 61, 145);
+    font-family: 'Raleway';
+}
+
+.card-what p {
+    font-family: 'raleway';
+    font-size: 13;
+    font-weight: 800;
+
+}
+
+.card-what i {
+    font-size: 12px;
+    color: blue;
+}
+
+.small-content {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    height: 90%;
+}
+
+.small-left {
+    display: flex;
+    width: 50%;
+    height: 100px;
+  background-image: linear-gradient(to right, rgba(17, 32, 162, 0.929), rgb(248, 241, 241));
+}
+
+.small-left img {
+    width: 50%;
+    height: 100px;
+}
+
+.new {
+    font-size: 14px;
+    font-family: 'Raleway';
+    color: rgb(6, 0, 0);
+    font-weight: 600;
+}
+
+.women {
+    text-align: center;
+    font-family: 'montserrat';
+    font-size: 14px;
+}
+
+.up {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(20, 20, 179);
+}
+
+.img-firstrow{
+    display: flex;
+    gap: 12px;
+    padding-bottom: 5px;
+}
+
+.img-firstrow img {
+    width: 50px;
+    height: 50px;
+}
+
+.img-secondrow {
+    display: flex;
+    padding-button: 5px;
+    gap: 12px;
+}
+
+.img-secondrow .image {
+    width: 90px;
+    height: 50px;
+}
+
+.img-secondrow img {
+    width: 50px;
+    height: 50px;
+}
+
+.featured-product {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.first-text h3{
+    text-align: center;
+    font-family: 'Raleway';
+    color: black;
+    font-weight: 800;
+}
+
+.second-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    top: 10px;
+}
+
+.second-text li {
+    list-style: none;
+}
+
+.second-text a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+.featured-content {
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    margin-left: 35px;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+
+.feat-card {
+    width: 40%;
+    height: 200px;
+    border: 1px solid rgb(4, 64, 167);
+    border-radius: 10px;
+}
+
+.feat-card img {
+    width: 80px;
+    height: 100px;
+    padding-top: 1px;
+    padding-left:  35px ;
+    object-fit: cover;
+}
+
+.sam {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Raleway';
+    color: blue;
+}
+
+.feat {
+    text-align: center;
+    font-weight: 500;
+    font-family: serif;
+}
+
+.ic{
+    position: relative;
+    padding-left: 40px;
+    color: rgb(209, 110, 4);
+}
+
+.feature-catom {
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    margin-left: 35px;
+    gap: 10px;
+    margin-top: 20px
+}
+
+.Kavoon {
+    width: 40%;
+    height: 200px;
+    border: 1px solid rgb(4, 64, 167);
+    border-radius: 10px;
+}
+
+.Kavoon img {
+    width: 100px;
+    height: 100px;
+    padding-top: 5px;
+    padding-left:  20px ;
+    object-fit: cover;
+}
+
+.samuel {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Raleway';
+    color: blue;
+}
+
+.fea {
+    text-align: center;
+    font-weight: 500;
+    font-family: serif;
+}
+
+.ico {
+    position: relative;
+    padding-left: 40px;
+    color: rgb(209, 110, 4)
+}
